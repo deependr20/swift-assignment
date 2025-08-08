@@ -192,7 +192,7 @@ const CommentsTable: React.FC<CommentsTableProps> = ({
                     index % 2 === 0 ? "bg-white" : "bg-gray-50"
                   }`}>
                   <td className="px-3 sm:px-6 py-4 text-xs sm:text-sm text-gray-900">
-                    {comment.postId.toString().padStart(8, "0")}
+                    {`123${comment.id}`}
                   </td>
                   <td className="px-3 sm:px-6 py-4">
                     <div className="max-w-xs">

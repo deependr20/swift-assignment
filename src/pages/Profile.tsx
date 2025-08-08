@@ -183,10 +183,7 @@ const Profile: React.FC = () => {
 
           {/* Form Fields Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <FormField
-              label="User ID"
-              value={user.id.toString().padStart(8, "0")}
-            />
+            <FormField label="User ID" value={`123${user.id}`} />
             <FormField label="Name" value={user.name} />
             <FormField label="Email ID" value={user.email} />
             <FormField
