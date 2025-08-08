@@ -156,7 +156,7 @@ const Dashboard: React.FC = () => {
       {/* Content */}
       <div className="px-6 py-8 mx-auto max-w-[80rem]">
         {/* Control Panel */}
-        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-6">
+        <div className="bg-white rounded-lg shadow-sm border border-gray-200 md:p-6 p-4 mb-6">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between space-y-4 lg:space-y-0">
             {/* Sort Controls */}
             <div className="flex flex-wrap items-center gap-3">
